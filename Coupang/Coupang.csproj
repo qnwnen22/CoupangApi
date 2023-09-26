@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Coupang</RootNamespace>
-    <AssemblyName>Coupang</AssemblyName>
+    <AssemblyName>Moka.Coupang</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -43,12 +43,6 @@
   <ItemGroup>
     <Compile Include="CoupangApi.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\CategoryMatching\CategoryMatching\CategoryMatching.csproj">
-      <Project>{C9DD8E05-FDD3-47B9-86A9-1770FAED39F6}</Project>
-      <Name>CategoryMatching</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
